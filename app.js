@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const fileUpload = require('express-fileupload');
 const methodOverride = require('method-override');
 const ejs = require('ejs');
+require('dotenv').config();
 const photoController = require('./controllers/photoControllers');
 const pageController = require('./controllers/pageController');
 
